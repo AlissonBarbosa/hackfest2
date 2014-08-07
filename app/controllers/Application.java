@@ -175,10 +175,6 @@ public class Application extends Controller {
 		return ok(views.html.evento.render(sistema, evento));
 		}
     	
-    	
-    	
-    	
-    
 
 	public static GenericDAO getDao() {
 		return dao;
